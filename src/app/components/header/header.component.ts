@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+
+
+
   constructor() { }
 
-  ngOnInit() {
+ 
+
+  @HostListener('window:scroll', ['$event'])
+
+  onWindowScroll(e) {
+    let element = document.querySelector('.navbar');
+    if (window.pageYOffset > element.clientHeight) {
+      element.classList.add('sticky-top' );
+    } else {
+      element.classList.remove('sticky-top' );
+    }
   }
 
+
+  ngOnInit() { }
 }

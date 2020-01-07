@@ -1,0 +1,20 @@
+
+
+.app-header{
+    background-color: transparent;
+
+    .nav-logo{
+        height: 65px;
+        margin: auto 20px ;
+    }
+
+    .nav-item {
+        margin: auto 20px;
+    }
+}
+
+.sticky-top{
+    background-color: white !important;
+    transition:300ms ease;
+    box-shadow: -21.213px 21.213px 30px 0 rgba(158,158,158,.3);
+}
