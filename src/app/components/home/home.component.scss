@@ -1,0 +1,28 @@
+
+.home-header-container{
+
+    height:  calc(100vh - 0px);
+    width: 100%;
+    background-image: url(./../../../assets/images/home1.jpeg);
+      
+//   /* Add the blur effect */
+//   filter: blur(8px);
+//   -webkit-filter: blur(8px);
+    margin-top: -91px;
+
+    .bg-text{
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+        color: white;
+        height: 100%;
+        width: 100%;;
+
+        
+
+        
+    }
+}
+
+.nav-link{
+    color: white !important;
+}
