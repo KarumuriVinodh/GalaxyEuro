@@ -11,16 +11,16 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about-company">About Company</a>
+          <a class="nav-link" [routerLink]="['/about-company']"  >About US</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link menu-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Activities</a>      
+            <a class="nav-link menu-item dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Activities</a>      
             <div class=" dropdown dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item menu-item" href="dharmaadikaritva">Dharmaadikaritva</a>
-                <a class="dropdown-item menu-item" href="antarastriya"> Antarastriya</a>
-                <a class="dropdown-item" href="manava">Manava</a>
-                <a class="dropdown-item" href="uttaraditva">Uttaraditva</a>
-                <a class="dropdown-item" href="janapada-seva">Janapada Seva</a>
+                <a class="dropdown-item menu-item" [routerLink]="['/dharmaadikaritva']">Dharmaadikaritva</a>
+                <a class="dropdown-item menu-item" [routerLink]="['/antarastriya']"> Antarastriya</a>
+                <a class="dropdown-item" [routerLink]="['/manava']">Manava</a>
+                <a class="dropdown-item" [routerLink]="['/uttaraditva']">Uttaraditva</a>
+                <a class="dropdown-item" [routerLink]="['/janapada-seva']">Janapada Seva</a>
             </div>
         </li>     
       </ul>
