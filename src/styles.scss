@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+.section-head {
+    margin-bottom: 80px;
+
+    h4{
+        position: relative;
+        padding: 0 0 0 15px;
+        line-height: 1;
+        border-left: 1px solid #eee;
+        letter-spacing: 2px;
+        font-size: 38px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+
+        span {
+            font-weight: 200;
+            padding-bottom: 5px;
+            font-size: 30px;
+        }
+    }
+
+    h4:before {
+        content: '';
+        width: 1px;
+        height: 35px;
+        background: #F24259;
+        position: absolute;
+        left: -1px;
+        bottom: 0;
+
+        
+    }
+}

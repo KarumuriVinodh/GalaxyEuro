@@ -3,7 +3,9 @@
 
     height:  calc(100vh - 0px);
     width: 100%;
-    background-image: url(./../../../assets/images/home1.jpeg);
+    background-image: url(./../../../assets/images/home-bg-2.jpg);
+    background-position: 0px 0px;
+    background-size: cover;
       
 //   /* Add the blur effect */
 //   filter: blur(8px);
@@ -25,4 +27,41 @@
 
 .nav-link{
     color: white !important;
+}
+
+
+
+.services{
+
+    padding: 100px 0px;
+
+    .item {
+        padding: 30px 15px;
+        -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+        box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+        border-radius: 5px;
+        margin-bottom: 30px;
+
+        h6 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            word-spacing: 1px;
+            margin: 0;
+        }
+
+        .read-more-btn{
+            padding: 5px 10px;
+            border-radius: 50px;
+            border: 1px solid #f3273b;
+            background-color: #f3273b;
+            color: white;
+            font-size: 14px;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
 }
