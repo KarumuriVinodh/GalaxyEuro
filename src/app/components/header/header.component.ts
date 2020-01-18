@@ -1,4 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
+import { Location } from "@angular/common";
 
 @Component({
   selector: 'app-header',
@@ -7,12 +9,18 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  constructor(location: Location, router: Router) { 
+    router.events.subscribe((val) => {
 
+      let element = document.querySelector('.navbar');
 
-
-  constructor() { }
-
- 
+      if(location.path() != ''){
+        element.classList.add('sticky-top' );
+      } else {
+        element.classList.remove('sticky-top' );
+      }
+    });
+  }
 
   @HostListener('window:scroll', ['$event'])
 

@@ -8,23 +8,44 @@
         margin: auto 20px ;
     }
 
-    .nav-item {
-        margin: auto 20px;
-    }
+  
 }
 
 .sticky-top{
     background-color: white !important;
     transition:300ms ease;
     box-shadow: -21.213px 21.213px 30px 0 rgba(158,158,158,.3);
-   
+   color : black !important;
     
 }
 
 .nav-link{
     color: black !important;
+    font-size: 14px;
+			font-weight: 600;
+			color: #eee;
+			letter-spacing: .5px;
+			margin: 15px 15px;
 }
 
 .navbar-light{
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0);
+}
+
+
+.social a {
+    color: #000;
+    font-size: 14px;
+    margin: 15px 10px;
+    -webkit-transition:  -webkit-transform 500ms; /* Safari */
+    transition:  transform 500ms;
+}
+
+.social a:hover{
+    text-decoration: none;
+    -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+}
+.social{
+    border-left:  1px solid #444444;
 }

@@ -8,12 +8,12 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item ">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" [routerLinkActive]="['active']" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/about-company']"  >About US</a>
+          <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/about-company']"  >About US</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" [routerLinkActive]="['active']">
             <a class="nav-link menu-item dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Activities</a>      
             <div class=" dropdown dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item menu-item" [routerLink]="['/dharmaadikaritva']">Dharmaadikaritva</a>
@@ -23,6 +23,12 @@
                 <a class="dropdown-item" [routerLink]="['/janapada-seva']">Janapada Seva</a>
             </div>
         </li>     
+        <li class="social align-self-center">
+          <a href="#0"><i class="icofont icofont-social-facebook"></i></a>
+            <a href="#0"><i class="icofont icofont-social-twitter"></i></a>
+            <a href="#0"><i class="icofont icofont-social-instagram"></i></a>
+            <a href="#0"><i class="icofont icofont-brand-linkedin"></i></a>
+        </li>
       </ul>
      
     </div>
