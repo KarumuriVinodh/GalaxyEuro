@@ -1,22 +1,129 @@
-footer {
-    background: #222;
-    padding: 80px 0;
+.footer {
+    // background: #222;
+    // padding: 80px 0;
 
-    .logo {
-        padding: 15px 0;
-        width: 100px;
+    // .logo {
+    //     padding: 15px 0;
+    //     width: 100px;
+    // }
+
+    // .social a {
+    //     color: #777;
+    //     font-size: 18px;
+    //     margin: 15px 10px;
+    // }
+
+    // p {
+    //     color: #777;
+    //     font-weight: 700;
+    //     margin-top: 15px;
+    //     font-family:  'Poppins', sans-serif;
+    // }
+    background: #253143;
+    // padding: 87px 0 37px;
+    padding: 40px 0;
+    border-bottom: 1px solid #3b4656;
+    color: #c4d4ed;
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./../../../assets/images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+
+    ul.social {
+        margin-right: 16px;
+    }
+    .list-inline {
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .list-inline>li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    // img {
+    //     max-width: 100%;
+    //     height: auto;
+    // }
+    
+    // img {
+    //     vertical-align: middle;
+    // }
+    // img {
+    //     border: 0;
+    // }
+
+    .foot_logo {
+        margin-left: -70px;
     }
 
-    .social a {
-        color: #777;
+     ul.social li a {
+        width: 37px;
+        height: 37px;
+        display: block;
+        background: #676f7c;
+        text-align: center;
+        border-radius: 100%;
+        color: #253143;
+        line-height: 37px;
+    }
+    ul.social li a:hover {
+       background: #fff;
+    }
+     h4 {
         font-size: 18px;
-        margin: 15px 10px;
+        margin: 0 0 20px;
+        color: #fff;
     }
-
+     ul.menu li {
+        display: block;
+        margin: 0 0 7px;
+    }
+     ul.menu li a {
+        color: #c4d4ed;
+        font-size: 15.5px;
+    }
+    ul.menu li a:hover {
+        color: #fff;
+    }
     p {
-        color: #777;
-        font-weight: 700;
-        margin-top: 15px;
-        font-family:  'Poppins', sans-serif;
+        margin-bottom: 5px;
+        line-height: 26px;
+        color: #c4d4ed;
     }
+    .email {
+        margin-bottom: 10px;
+    }
+     .email a {
+        color: #c4d4ed;
+        font-size: 20px;
+    }
+ .tel {
+        color: #1787dd;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.short_foot {
+    padding: 15px 0;
+    background: #000;
+}
+.short_foot a {
+    font-size: 14px;
+    color: #c4d4ed;
+}
+
+.short_foot span {
+    font-size: 14px;
+    color: #c4d4ed;
 }
