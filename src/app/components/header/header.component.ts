@@ -34,5 +34,13 @@ export class HeaderComponent implements OnInit {
   }
 
 
-  ngOnInit() { }
+  ngOnInit() { 
+
+  }
+
+  triggerToggleButton(){
+    // $('.navbar-toggler:visible').click();
+    let element: HTMLElement = document.getElementsByClassName('navbar-toggler')[0] as HTMLElement;
+element.click();
+  }
 }
