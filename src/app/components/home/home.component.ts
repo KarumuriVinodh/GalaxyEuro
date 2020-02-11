@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
 
     const instance = new Typewriter('#typewriter', {
-      strings: ['SEZ’s, Customs and GST', 'India entry assistance, Market to go and OutBound', 'CSR','IR & HR Activity','Civil Services Magazine'],
+      strings: ['SEZ’s, Customs and Central Excise & Warehousing', 'India entry assistance, Market to go and OutBound', 'Corporate Social Responsibility','IR & HR Activity','Civil Services Magazine','Wind Energy, Energy Storage & Technology','Graduate Expressway'],
       autoStart: true,
       loop: true,
     });
