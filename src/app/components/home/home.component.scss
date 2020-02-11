@@ -10,7 +10,7 @@
 //   /* Add the blur effect */
 //   filter: blur(8px);
 //   -webkit-filter: blur(8px);
-    margin-top: -91px;
+    // margin-top: -91px;
 
     .bg-text{
         background-color: white; /* Fallback color */
@@ -72,7 +72,9 @@
     font-family: 'Raleway', sans-serif;
   }
 }
-
+.middle-div .read-more-btn{
+  margin-top: 4px !important;
+}
 .read-more-btn{
  
   font-family: 'Raleway', sans-serif;
