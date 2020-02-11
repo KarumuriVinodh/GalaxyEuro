@@ -13,6 +13,9 @@ import { AntarastriyaComponent } from './components/antarastriya/antarastriya.co
 import { ManavaComponent } from './components/manava/manava.component';
 import { UttaraditvaComponent } from './components/uttaraditva/uttaraditva.component';
 import { JanapadaSevaComponent } from './components/janapada-seva/janapada-seva.component';
+// import { GatewayComponent } from './gateway/gateway.component';
+import { ExpresswayComponent } from './components/expressway/expressway.component';
+import { WindenergyComponent } from './components/windenergy/windenergy.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { JanapadaSevaComponent } from './components/janapada-seva/janapada-seva.
     ManavaComponent,
     UttaraditvaComponent,
     JanapadaSevaComponent,
+    // GatewayComponent,
+    ExpresswayComponent,
+    WindenergyComponent,
 
     
   ],
