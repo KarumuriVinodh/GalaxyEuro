@@ -54,6 +54,11 @@
 //     }
 // }
 
+@media (max-width: 575px) {
+    .m-t-10{
+        margin-top: 10px !important;
+    }
+}
 
 .information {
     padding: 40px 0;
@@ -70,7 +75,7 @@
 }
 
 .information .section-head {
-    margin-bottom: 40px !important;
+    margin-bottom: 20px !important;
 }
 
 .information .info .item:last-child {
@@ -78,7 +83,7 @@
 }
 
 .information .item {
-    padding: 20px;
+    padding:10px;
     background: rgba(70, 70, 70, 0.5);
     border-radius: 15px;
     cursor: pointer;
