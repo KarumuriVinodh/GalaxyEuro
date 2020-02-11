@@ -1,26 +1,28 @@
 <nav class="navbar navbar-expand-lg navbar-light app-header"  (scroll)="onWindowScroll($event);">
   
     <a class="navbar-brand" href="">
-        <img class="img-fluid nav-logo" src="./assets/images/header-logo.png">
+        <img class="img-fluid nav-logo" src="./assets/images/gelogo.png">
 
     </a>
   
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item ">
-          <a class="nav-link" [routerLinkActive]="['active']" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" [routerLinkActive]="['active']" href="#" (click)="triggerToggleButton()">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/about-company']"  >About US</a>
+          <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/about-company']" (click)="triggerToggleButton()" >About US</a>
         </li>
         <li class="nav-item dropdown" [routerLinkActive]="['active']">
             <a class="nav-link menu-item dropdown-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">Services</a>      
             <div class=" dropdown dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item menu-item" [routerLink]="['/dharmaadikaritva']">SEZ’s, Customs and Central Excise</a>
-                <a class="dropdown-item menu-item" [routerLink]="['/antarastriya']"> India entry assistance</a>
-                <a class="dropdown-item" [routerLink]="['/manava']">IR & HR Management</a>
-                <a class="dropdown-item" [routerLink]="['/uttaraditva']">Corporate Social Responsibility</a>
-                <a class="dropdown-item" [routerLink]="['/janapada-seva']">Civil Services Magazine</a>
+                <a class="dropdown-item menu-item" [routerLink]="['/dharmaadikaritva']" (click)="triggerToggleButton()">SEZ’s, Customs & Central Excise & Warehousing</a>
+                <a class="dropdown-item menu-item" [routerLink]="['/antarastriya']" (click)="triggerToggleButton()"> India entry assistance</a>
+                <a class="dropdown-item" [routerLink]="['/manava']" (click)="triggerToggleButton()">IR & HR Management</a>
+                <a class="dropdown-item" [routerLink]="['/uttaraditva']" (click)="triggerToggleButton()">Corporate Social Responsibility</a>
+                <a class="dropdown-item" [routerLink]="['/janapada-seva']" (click)="triggerToggleButton()">Civil Services Magazine</a>
+                <a class="dropdown-item" [routerLink]="['/windenergy']" (click)="triggerToggleButton()">Wind Energy, Energy Storage & Technology</a>
+                <a class="dropdown-item" [routerLink]="['/expressway']" (click)="triggerToggleButton()">Graduate Expressway</a>
             </div>
         </li>     
         <li class="social align-self-center">
@@ -31,9 +33,11 @@
         </li>
       </ul>
      
+     
     </div>
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
   </nav>
