@@ -7,6 +7,11 @@ import { AntarastriyaComponent } from './components/antarastriya/antarastriya.co
 import { ManavaComponent } from './components/manava/manava.component';
 import { UttaraditvaComponent } from './components/uttaraditva/uttaraditva.component';
 import { JanapadaSevaComponent } from './components/janapada-seva/janapada-seva.component';
+import { WindenergyComponent } from './components/windenergy/windenergy.component';
+import { ExpresswayComponent } from './components/expressway/expressway.component';
+
+
+
 
 
 const routes: Routes = [
@@ -17,6 +22,8 @@ const routes: Routes = [
   { path: 'manava', component: ManavaComponent },
   { path: 'uttaraditva', component: UttaraditvaComponent },
   { path: 'janapada-seva', component: JanapadaSevaComponent },
+  { path: 'windenergy', component: WindenergyComponent },
+  { path: 'expressway', component: ExpresswayComponent },
 ];
 
 @NgModule({
